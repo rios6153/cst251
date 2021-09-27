@@ -1,0 +1,64 @@
+
+body {
+  background-color: #4ff0ec;
+  background-image: url("../img/halloween1.jpeg");
+  background-size: cover;
+}
+
+  img {
+      filter: grayscale(100%);
+  }
+  img {
+    transition: all 3s ease-out;
+  }
+  img:hover {
+    transform: scale(150%) translate(-15px, 25px);
+    transition: all 3s ease-in;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  font-family: sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: 3.5vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 1.5vw;
+}
+
+p {
+  margin-top: 0;
+}
+.major-section {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px #606060;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.5)
+}
+
+.minor-section {
+  padding: 1px 20px;
+  margin: 10px;
+  background-color: #DDCDC7;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+nav a:hover {
+   text-decoration: underline;
+ }
