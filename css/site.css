@@ -1,41 +1,46 @@
-html, body {
-  background-color: yellowgreen;
-  background-image: url("../img/creativity.webp");
-}
-
-
-#content {
-  margin: 100px;
-  padding: 30px;
-  border: dashed 15px skyblue;
-  background-color: white;
-}
-
 
 body {
-  font-family: "Times New Roman", "Times Roman", serif;
+  background-color: #4ff0ec;
+  background-image: url("../img/sphere.gif");
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  font-family: "Times New Roman",sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+  color: white;
 }
 
 h1 {
-  font-family: sans-serif;
-  font-size: 4em;
-  font-weight: bold;
+  font-size: 3.5vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 1.5vw;
 }
 
-h1 {
-  margin-top: 8px;
-  margin-left: -10px;
+p {
+  margin-top: 0;
+  color: white;
+  font-family: "Times New Roman",sans-serif;
 }
 
-.feature-image {
-  width: 400px;
+.minor-section {
+  padding: 1px 20px;
   margin: 10px;
-  padding: 10px;
-  background-color: skyblue;
-  float: right;
+  background-color: #DDCDC7;
 }
 
-.feature-image img {
-  max-width: 100%;
-  width: 100%;
+nav a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 110%;
+  text-decoration: none;
+  font-family: "Times New Roman",sans-serif;
 }
