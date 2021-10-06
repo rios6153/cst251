@@ -1,0 +1,50 @@
+
+body {
+  background-color: #4ff0ec;
+  background-image: url("../img/cat.gif");
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  font-family: "Creepster",sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 1.5vw;
+}
+
+p {
+  margin-top: 0;
+  color: white;
+  font-family: "Creepster",sans-serif;
+}
+
+.minor-section {
+  padding: 1px 20px;
+  margin: 10px;
+  background-color: #DDCDC7;
+}
+
+nav a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 110%;
+  text-decoration: none;
+  font-family: "Creepster",sans-serif;
+}
+
+nav a:hover {
+   text-decoration: underline;
+ }
