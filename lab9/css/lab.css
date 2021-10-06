@@ -1,0 +1,41 @@
+html, body {
+  background-color: yellowgreen;
+  background-image: url("../img/creativity.gif");
+}
+
+
+#content {
+  margin: 100px;
+  padding: 30px;
+  border: dashed 20px skyblue;
+  background-color: orange;
+}
+
+
+body {
+  font-family: "Times New Roman", "Times Roman", serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+.feature-image {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: skyblue;
+  float: right;
+}
+
+.feature-image img {
+  max-width: 100%;
+  width: 100%;
+}
