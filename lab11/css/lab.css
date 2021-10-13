@@ -49,7 +49,7 @@ h3 {
   margin: 20px;
   width: 25%;
   min-width: 300px;
-  border: solid 5px teal;
+  border: dashed 5px teal;
   background-color: tan;
 }
 
