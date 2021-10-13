@@ -44,3 +44,15 @@ nav a {
   text-decoration: none;
   font-family: "Times New Roman",sans-serif;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: tan;
+  border: dashed 10px teal;
+  color: white;
+}
+
+nav a {
+  color: white;
+}
