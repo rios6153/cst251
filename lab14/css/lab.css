@@ -1,0 +1,72 @@
+html, body {
+  background-color: black;
+}
+
+
+#content {
+  margin: 100px;
+  padding: 30px;
+  border: dashed 20px skyblue;
+  background-color: orange;
+}
+
+
+body {
+  font-family: "Times New Roman", "Times Roman", serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+h3 {
+  color: purple;
+}
+
+.feature-image {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: skyblue;
+  float: right;
+}
+
+.feature-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+#sidebar {
+  float: right;
+  margin: 20px;
+  width: 25%;
+  min-width: 300px;
+  border: dashed 5px teal;
+  background-color: tan;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: tan;
+  border: dashed 10px teal;
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+iframe#fake {
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}

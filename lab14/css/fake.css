@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/nightclub.jpeg");
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+p {
+  color: white;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.center-vert {
+   padding: 10px 0;
+   border: 1px solid none;
+}
+
+#center-horz {
+  text-align: left;
+}
