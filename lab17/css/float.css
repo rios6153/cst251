@@ -1,0 +1,68 @@
+
+body {
+  background-color: white;
+
+}
+
+
+	.header {
+	  background: red;
+		float; top;
+		padding: 8px;
+    width: 400px;
+    text-align: center;
+	}
+
+  div#block {
+    width: 50%;
+    height: 100px;
+}
+
+
+	.article {
+	  background: yellow;
+		float: left;
+		clear: left;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+	}
+
+	.section{
+	  background: lightgreen;
+    float: left;
+		float: bottom;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+	}
+
+.footer {
+	background: skyblue;
+	float: bottom
+	float: left;
+	padding: 10px;
+  width: 300px
+}
+
+.aside {
+	background: purple;
+	top: 50px;
+	float: right;
+	padding: 10px;
+  width: 200px;
+}
+
+.nav {
+background: lightgray;
+float: right;
+padding: 15px;
+
+}
+
+nav {
+  float: right;
+  float: bottom;
+}
