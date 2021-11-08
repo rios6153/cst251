@@ -1,0 +1,47 @@
+
+body {
+  background-color: white;
+
+}
+
+.flex {
+  display: flex;
+ flex-direction: column;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.box {
+  width: 300px;
+  min-width: 300px;
+  max-width: 500px
+}
+
+
+  .col {
+    min-height: 200px;
+
+    border: solid 1px black
+  }
+
+  .col h1, .col h2 {
+    text-align: center;
+  }
+
+  .row {
+    border: solid 1px gray;
+  }
+
+  div#block {
+    width: 50%;
+    height: 100px;
+}
+
+nav {
+  float: right;
+  float: bottom;
+}
