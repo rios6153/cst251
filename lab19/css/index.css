@@ -1,0 +1,10 @@
+
+body {
+  background-color: skyblue;
+  background-size: cover;
+}
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
